@@ -13,3 +13,9 @@
 .positive{
     color: green;
 }
+.large-change {
+    font-size: 3.2em;
+}
+.small-change{
+    font-size: 0.8em;
+}
