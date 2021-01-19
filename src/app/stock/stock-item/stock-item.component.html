@@ -1,0 +1,6 @@
+<div class="stock-container">
+    <div class = "name"><h3>{{name + ' (' + code + ') '}}</h3></div>
+    <p>{{'previousPrice >>> ' + '$' + previousPrice}}</p>
+    <div class="price" [class]="positiveChange ? 'positive' : 'negative'">{{'CurrentPrice >>> ' + '$' +price}}</div>
+    <button (click)="toggleFavorite($event)" [disabled]="favorite">Add to Favroite</button>
+</div>
