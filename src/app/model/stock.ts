@@ -3,7 +3,7 @@ export class Stock {
     //Public by default
     public favorite: boolean = false;
 
-    //下面的都是屬性 可以想像成public name: String後在construct裡面this.name= name
+    //根據建構元參數的public關鍵字自動產生相對應的屬性
     constructor(
         public name: string,
         public code: string,
